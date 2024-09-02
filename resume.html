@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--social icon-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"rel="stylesheet"/>
+
+    <link rel="stylesheet" href="nav.css">
+    
+    <style>
+        body{
+            background-color: black;
+            font-family:'Times New Roman', Times, serif;
+            color: white;
+        }
+        .hero-section {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 60px 0;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991.98px) {
+    /* Adjustments for smaller screens */
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+  }
+  :root {
+    --bg--color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+  }
+  .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.5s ease;
+  }
+  .social-media a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+  }
+
+  .progress-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.progress-circle__svg {
+  width: 100%;
+  height: 100%;
+}
+
+.progress-circle__background {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 10;
+}
+
+.progress-circle__bar {
+  fill: none;
+  stroke: #4caf50;
+  stroke-width: 10;
+  stroke-dasharray: 0 100;
+  transform-origin: center;
+  transform: rotate(-90deg);
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.progress-circle__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+.cir{
+    display: flex;
+}
+#circle1{
+    flex: 1;
+}
+#circle2{
+    flex: 1;
+}
+#circle3{
+    flex: 1;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: 1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+  }
+  .btn:hover {
+    box-shadow: none;
+  }
+    </style>
+</head>
+<body>
+    <nav class="custom-nav">
+        <div class="container">
+            <a href="#" class="nav-logo">PORTFOLIO</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/harshini-m-bb3932275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="nav-link">LinkedIn</a></li>
+                <li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
+                <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 class="hero-title"style="color:violet;font-size: 300%;">CAREER OBJECTIVE :</h1>
+                    <p class="hero-description" style="padding-left: 50px;">I am very practical person with an amiable disposition and strong cultural value. Seeking a position of lecturer where I can give practical knowledge with the theoretical concept.</p>
+                    
+                      <div class="social-media">
+                        <a href="https://www.facebook.com/login.php/"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://x.com/i/flow/login"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://www.instagram.com/?hl=en"><i class="bx bxl-instagram-alt"></i></a>
+                        <a href="https://www.linkedin.com/in/harshini-m-bb3932275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin"></i></a>
+                      </div>
+                      <a href="mailto:harshini10718@gmail.com" class="btn">contact</a>
+                      
+                </div>
+                <BR><BR><BR><BR><BR>
+                <div class="col-lg-6">
+                    <img src="developer.png" alt="Hero Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--LANGUAGE-->
+    <BR><BR><BR><BR><BR>
+    <h1 class="hero-title"style="color:violet;font-size: 200%;">LANGUAGE :</h1>
+    <div class="cir">
+    <div class="progress-circle" id="circle1">
+        <H5>ENGLISH</H5>
+        <svg class="progress-circle__svg">
+          <circle class="progress-circle__background" cx="50%" cy="50%" r="40%"></circle>
+          <circle class="progress-circle__bar" cx="50%" cy="50%" r="40%"></circle>
+        </svg>
+        <div class="progress-circle__text">0%</div>
+      </div>
+      <div class="progress-circle" id="circle2">
+        <H5>HINDI</H5>
+        <svg class="progress-circle__svg">
+          <circle class="progress-circle__background" cx="50%" cy="50%" r="40%"></circle>
+          <circle class="progress-circle__bar" cx="50%" cy="50%" r="40%"></circle>
+        </svg>
+        <div class="progress-circle__text">0%</div>
+      </div>
+      <div class="progress-circle" id="circle3">
+        <H5>TAMIL</H5>
+        <svg class="progress-circle__svg">
+          <circle class="progress-circle__background" cx="50%" cy="50%" r="40%"></circle>
+          <circle class="progress-circle__bar" cx="50%" cy="50%" r="40%"></circle>
+        </svg>
+        <div class="progress-circle__text">0%</div>
+      </div>
+    </div>
+    <BR><BR><BR><BR>
+    <!--EDUCATION-->
+    <section class="hero-section d-flex align-items-center" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="web.jpg" alt="Hero Image" class="img-fluid">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 class="hero-title"style="color:violet;font-size: 300%;">EDUCATION :</h1>
+                    <p class="hero-description" style="padding-left: 50px;">SSLC at John Dewey Matriculation
+                        Higher Secondary School (2018) with
+                        55%<br>
+                        HSC at John Dewey Matriculation
+                        Higher Secondary School (2020) with
+                        50%<br>
+                        (BCA)UG at Theivanai ammal
+                        College For Women, Anna University
+                        (2020-2023) with 78%<br>
+                        (MCA)PG at Sri Manakula
+                        Vinayagar Engeering
+                        College,Madagadipet(2023-2025)
+                        7.82 CGPA.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function setProgress(circleId, percent) {
+          const circle = document.querySelector(`#${circleId} .progress-circle__bar`);
+          const text = document.querySelector(`#${circleId} .progress-circle__text`);
+        
+          const radius = circle.r.baseVal.value;
+          const circumference = 2 * Math.PI * radius;
+        
+          const offset = circumference - percent / 100 * circumference;
+          circle.style.strokeDasharray = `${circumference} ${circumference}`;
+          circle.style.strokeDashoffset = offset;
+        
+          text.textContent = `${percent}%`;
+        }
+        
+        // percentage
+        setProgress('circle1', 90); 
+        setProgress('circle2', 80); 
+        setProgress('circle3', 80); 
+        </script>
+
+</body>
+</html>
